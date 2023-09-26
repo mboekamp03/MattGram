@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "1nalSPLAZZS4almYnIuK1ZZth203": {
+      "type": "object",
+      "properties": {
+        "bio": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string",
+          "pattern": "^(0[1-9]|1[0-2])/(0[1-9]|[12][0-9]|3[01])/(19|20)\\d\\d$"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "name": {
+          "type": "string"
+        },
+        "user": {
+          "type": "string"
+        }
+      },
+      "required": ["bio", "dob", "image", "name", "user"]
+    }
+  },
+  "required": ["1nalSPLAZZS4almYnIuK1ZZth203"]
+}
