@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "1dc4b401-8d76-4612-9cf4-d9f38831927b",
+                "Y": 565.9999999999999,
+                "RelativeX": 0,
+                "RelativeY": 565,
+                "position": "absolute",
+                "edgeOffsets": 565.9999999999999,
+                "style": {
+                    "position": "absolute",
+                    "left": "13.733333333333333%",
+                    "top": "57.64617691154423%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "7abc7621-b23b-475a-8ac4-8a7cd59aae04",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Button",
             "translatedName": "Button",
             "properties": {
@@ -65,13 +95,13 @@
                 "FontSize": 16,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(93, 122, 252, 1)",
-                "Height": 49,
-                "Width": 311,
+                "Height": 50,
+                "Width": 313,
                 "Visible": true,
-                "X": 27,
-                "Y": 580,
-                "RelativeX": 27,
-                "RelativeY": 580,
+                "X": 26,
+                "Y": 492,
+                "RelativeX": 26,
+                "RelativeY": 492,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -102,7 +132,7 @@
                 "Disabled": false,
                 "ParentId": "1dc4b401-8d76-4612-9cf4-d9f38831927b",
                 "position": "absolute",
-                "edgeOffsets": 580
+                "edgeOffsets": 492.00000000000006
             },
             "children": [],
             "id": "d9bc7691-9cbe-4699-a566-ec4bdba0d5b7",
